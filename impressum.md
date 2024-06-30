@@ -1,5 +1,4 @@
 # Impressum
-Angaben gemäß § 5 TMG  
 Mein Name   
 Adresse  
 PLZ Stadt
@@ -8,7 +7,7 @@ Kontakt:
 E-Mail: max@muster.de  
 
 Redaktionell verantwortlich:  
-Alejandro Fanegas  
+Mein Name   
 Adresse  
 PLZ Stadt  
 
