@@ -2,4 +2,4 @@
 
 In Contruction
 
-[Go to Website](https://dakkil.github.io/AfDmeter/)
+[Go to Website](https://afdmeter.github.io/afdmeter/)
