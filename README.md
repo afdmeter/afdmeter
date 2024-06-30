@@ -2,4 +2,4 @@
 
 In Contruction
 
-[Go to Website](https://afdmeter.github.io/afdmeter/)
+[Go to Website](https://afdmeter.de/poc)
