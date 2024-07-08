@@ -342,11 +342,11 @@
         var baseMaps = {};
         var overlaysTree = [
             {label: 'AfD - Ergebnisse<br>&nbsp&nbsp&nbsp&nbsp Europawahl 2024<br /><table><tr><td style="text-align: center;"><img src="legend/AFD_EU_24_V2_0_080.png" /></td><td>0 - 8</td></tr><tr><td style="text-align: center;"><img src="legend/AFD_EU_24_V2_0_8121.png" /></td><td>8 - 12</td></tr><tr><td style="text-align: center;"><img src="legend/AFD_EU_24_V2_0_12152.png" /></td><td>12 - 15</td></tr><tr><td style="text-align: center;"><img src="legend/AFD_EU_24_V2_0_15193.png" /></td><td>15 - 19</td></tr><tr><td style="text-align: center;"><img src="legend/AFD_EU_24_V2_0_19224.png" /></td><td>19 - 22</td></tr><tr><td style="text-align: center;"><img src="legend/AFD_EU_24_V2_0_22265.png" /></td><td>22 - 26</td></tr><tr><td style="text-align: center;"><img src="legend/AFD_EU_24_V2_0_26296.png" /></td><td>26 - 29</td></tr><tr><td style="text-align: center;"><img src="legend/AFD_EU_24_V2_0_29337.png" /></td><td>29 - 33</td></tr><tr><td style="text-align: center;"><img src="legend/AFD_EU_24_V2_0_33378.png" /></td><td>33 - 37</td></tr><tr><td style="text-align: center;"><img src="legend/AFD_EU_24_V2_0_37419.png" /></td><td>37 - 41</td></tr></table>', layer: layer_AFD_EU_24_V2_0},]
-        var lay = L.control.layers.tree(null, overlaysTree,{
+        var lay = L.control.layers.tree(overlaysTree, null,{
             //namedToggle: true,
             //selectorBack: false,
             //closedSymbol: '&#8862; &#x1f5c0;',
-            //openedSymbol: '&#8863; &#x1f5c1;',
+            openedSymbol: '&#8863; &#x1f5c1;',
             //collapseAll: 'Collapse all',
             //expandAll: 'Expand all',
             collapsed: false, 
