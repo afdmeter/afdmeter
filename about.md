@@ -30,7 +30,11 @@ Durch die Bereitstellung dieser Informationen hoffen wir, das Bewusstsein für d
 
 > "Wir müssen auf das reagieren, was ich die Krise der Zivilisation nenne, die nicht nur wirtschaftlicher und finanzieller, sondern auch ökologischer, ernährungsbezogener, ethischer, politischer und totaler Natur ist." - [Julio Anguita González]
 
-
----
+## Konrakt
 
 Wir hoffen, dass diese Seite Ihnen einen klaren Überblick über die Nutzung und die Ziele vom AfDMeter gibt. Falls Sie weitere Fragen haben, zögern Sie nicht, uns zu kontaktieren: [info@afdmeter.de](mailto:info@afdmeter.de)
+
+&nbsp;
+
+---
+[AfDMeter](poc.html) · [Impressum](impressum.html) 
