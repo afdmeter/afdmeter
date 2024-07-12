@@ -1,16 +1,16 @@
 # Impressum
-Alejandro Fanegas
+Alejandro Fanegas  
 c/o AutorenServices.de  
-Birkenallee 24
+Birkenallee 24  
 36037 Fulda
 
 Kontakt:  
 E-Mail: max@muster.de  
 
 Redaktionell verantwortlich:  
-Alejandro Fanegas
+Alejandro Fanegas  
 c/o AutorenServices.de  
-Birkenallee 24
+Birkenallee 24  
 36037 Fulda
 
 ## Haftungsausschluss:
