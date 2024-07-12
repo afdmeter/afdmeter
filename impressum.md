@@ -1,15 +1,17 @@
 # Impressum
-Mein Name   
-Adresse  
-PLZ Stadt
+Alejandro Fanegas
+c/o AutorenServices.de  
+Birkenallee 24
+36037 Fulda
 
 Kontakt:  
 E-Mail: max@muster.de  
 
 Redaktionell verantwortlich:  
-Mein Name   
-Adresse  
-PLZ Stadt  
+Alejandro Fanegas
+c/o AutorenServices.de  
+Birkenallee 24
+36037 Fulda
 
 ## Haftungsausschluss:
 
@@ -22,4 +24,4 @@ Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wi
 &nbsp;
 
 ---
-[AfDMeter](poc.html) · [Über AfDMeter](about.html)
+[AfDMeter](index.html) · [Über AfDMeter](about.html)
