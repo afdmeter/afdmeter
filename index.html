@@ -139,7 +139,7 @@
         }
 
         function style_AFD_EU_24_V2_0_0(feature) {
-            if (feature.properties['Prozent'] >= 2.800000 && feature.properties['Prozent'] <= 11.850000 ) {
+            if (feature.properties['Prozent'] >= 4.000000 && feature.properties['Prozent'] <= 9.210000 ) {
                 return {
                 pane: 'pane_AFD_EU_24_V2_0',
                 opacity: 1,
@@ -150,11 +150,11 @@
                 weight: 1.0, 
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(212,239,250,1.0)',
+                fillColor: 'rgba(229,244,250,1.0)',
                 interactive: true,
             }
             }
-            if (feature.properties['Prozent'] >= 11.850000 && feature.properties['Prozent'] <= 18.911265 ) {
+            if (feature.properties['Prozent'] >= 9.210000 && feature.properties['Prozent'] <= 13.618942 ) {
                 return {
                 pane: 'pane_AFD_EU_24_V2_0',
                 opacity: 1,
@@ -165,11 +165,11 @@
                 weight: 1.0, 
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(159,216,239,1.0)',
+                fillColor: 'rgba(182,226,243,1.0)',
                 interactive: true,
             }
             }
-            if (feature.properties['Prozent'] >= 18.911265 && feature.properties['Prozent'] <= 25.967696 ) {
+            if (feature.properties['Prozent'] >= 13.618942 && feature.properties['Prozent'] <= 18.029211 ) {
                 return {
                 pane: 'pane_AFD_EU_24_V2_0',
                 opacity: 1,
@@ -180,11 +180,11 @@
                 weight: 1.0, 
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(106,193,227,1.0)',
+                fillColor: 'rgba(151,212,237,1.0)',
                 interactive: true,
             }
             }
-            if (feature.properties['Prozent'] >= 25.967696 && feature.properties['Prozent'] <= 33.020000 ) {
+            if (feature.properties['Prozent'] >= 18.029211 && feature.properties['Prozent'] <= 22.439480 ) {
                 return {
                 pane: 'pane_AFD_EU_24_V2_0',
                 opacity: 1,
@@ -195,11 +195,56 @@
                 weight: 1.0, 
                 fill: true,
                 fillOpacity: 1,
-                fillColor: 'rgba(53,169,216,1.0)',
+                fillColor: 'rgba(121,199,230,1.0)',
                 interactive: true,
             }
             }
-            if (feature.properties['Prozent'] >= 33.020000 && feature.properties['Prozent'] <= 41.080000 ) {
+            if (feature.properties['Prozent'] >= 22.439480 && feature.properties['Prozent'] <= 26.849750 ) {
+                return {
+                pane: 'pane_AFD_EU_24_V2_0',
+                opacity: 1,
+                color: 'rgba(93,93,93,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(91,186,224,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['Prozent'] >= 26.849750 && feature.properties['Prozent'] <= 31.260019 ) {
+                return {
+                pane: 'pane_AFD_EU_24_V2_0',
+                opacity: 1,
+                color: 'rgba(93,93,93,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(61,173,217,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['Prozent'] >= 31.260019 && feature.properties['Prozent'] <= 35.670000 ) {
+                return {
+                pane: 'pane_AFD_EU_24_V2_0',
+                opacity: 1,
+                color: 'rgba(93,93,93,1.0)',
+                dashArray: '',
+                lineCap: 'butt',
+                lineJoin: 'miter',
+                weight: 1.0, 
+                fill: true,
+                fillOpacity: 1,
+                fillColor: 'rgba(30,159,211,1.0)',
+                interactive: true,
+            }
+            }
+            if (feature.properties['Prozent'] >= 35.670000 && feature.properties['Prozent'] <= 41.000000 ) {
                 return {
                 pane: 'pane_AFD_EU_24_V2_0',
                 opacity: 1,
@@ -266,8 +311,9 @@
         .title += 'Suchen Sie nach Gebieten oder Adressen';
         var baseMaps = {};
         var overlaysTree = [
-            {label: 'Wahlergebnisse AfD <br>&nbsp&nbsp&nbsp&nbsp  Europawahl 2024<br /><table><tr><td style="text-align: center;"><img src="legend/WahlergebnisseAfDbrnbspnbspnbspnbspEuropawahl2024_0_120.png" /></td><td>12 %</td></tr><tr><td style="text-align: center;"><img src="legend/WahlergebnisseAfDbrnbspnbspnbspnbspEuropawahl2024_0_191.png" /></td><td>19 %</td></tr><tr><td style="text-align: center;"><img src="legend/WahlergebnisseAfDbrnbspnbspnbspnbspEuropawahl2024_0_262.png" /></td><td>26 %</td></tr><tr><td style="text-align: center;"><img src="legend/WahlergebnisseAfDbrnbspnbspnbspnbspEuropawahl2024_0_333.png" /></td><td>33 %</td></tr><tr><td style="text-align: center;"><img src="legend/WahlergebnisseAfDbrnbspnbspnbspnbspEuropawahl2024_0_414.png" /></td><td>41 %</td></tr></table>', layer: layer_AFD_EU_24_V2_0},]
-        var lay = L.control.layers.tree(overlaysTree, null,{
+            {label: 'Wahlergebnisse AfD <br>&nbsp&nbsp&nbsp&nbsp  Europawahl 2024<br /><table><tr><td style="text-align: center;"><img src="legend/WahlergebnisseAfDbrnbspnbspnbspnbspEuropawahl2024_0_490.png" /></td><td>4 % - 9 %</td></tr><tr><td style="text-align: center;"><img src="legend/WahlergebnisseAfDbrnbspnbspnbspnbspEuropawahl2024_0_9141.png" /></td><td>9 % - 14 %</td></tr><tr><td style="text-align: center;"><img src="legend/WahlergebnisseAfDbrnbspnbspnbspnbspEuropawahl2024_0_14182.png" /></td><td>14 % - 18 %</td></tr><tr><td style="text-align: center;"><img src="legend/WahlergebnisseAfDbrnbspnbspnbspnbspEuropawahl2024_0_18223.png" /></td><td>18 % - 22 %</td></tr><tr><td style="text-align: center;"><img src="legend/WahlergebnisseAfDbrnbspnbspnbspnbspEuropawahl2024_0_22274.png" /></td><td>22 % - 27 %</td></tr><tr><td style="text-align: center;"><img src="legend/WahlergebnisseAfDbrnbspnbspnbspnbspEuropawahl2024_0_27315.png" /></td><td>27 % - 31 %</td></tr><tr><td style="text-align: center;"><img src="legend/WahlergebnisseAfDbrnbspnbspnbspnbspEuropawahl2024_0_31366.png" /></td><td>31 % - 36 %</td></tr><tr><td style="text-align: center;"><img src="legend/WahlergebnisseAfDbrnbspnbspnbspnbspEuropawahl2024_0_36417.png" /></td><td>36 % - 41 %</td></tr></table>', layer: layer_AFD_EU_24_V2_0},]
+
+            var lay = L.control.layers.tree(overlaysTree, null,{
             //namedToggle: true,
             //selectorBack: false,
             //closedSymbol: '&#8862; &#x1f5c0;',
