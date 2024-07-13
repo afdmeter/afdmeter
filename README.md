@@ -8,7 +8,7 @@ You can visit the website [here](http://afdmeter.de).
 
 ## Acknowledgements
 
-I would like to extend my gratitude to the developers of the following open-source software, which made this project possible:
+We would like to extend our gratitude to the developers of the following open-source software, which made this project possible:
 
 - [QGIS](https://qgis.org) - A free and open-source Geographic Information System.
 - [qgis2web](https://github.com/tomchadwin/qgis2web) - A QGIS plugin to export maps to web formats.
