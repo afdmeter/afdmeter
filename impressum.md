@@ -5,7 +5,7 @@ Birkenallee 24
 36037 Fulda
 
 Kontakt:  
-E-Mail: max@muster.de  
+E-Mail: info@afdmeter.de  
 
 Redaktionell verantwortlich:  
 Alejandro Fanegas  
