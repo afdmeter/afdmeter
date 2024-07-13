@@ -1,6 +1,6 @@
 
         #map {
-            background-color: #ffffff
+            background-color: #f6f6f6
         }
         th {
             text-align: left;
@@ -9,14 +9,15 @@
         .info {
             padding: 6px 8px;
             font: 14px/16px Arial, Helvetica, sans-serif;
-            background: white;
+/*             background: white;
             background: rgba(255,255,255,0.8);
-            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);*/
             border-radius: 5px;
         }
         .info h2 {
             margin: 0px 0px 0px;
-            color: #777;
+            color: #33322F;
+            text-align: right;
         }
         .leaflet-container {
             background: #fff;
@@ -82,8 +83,8 @@
             font: bold 15px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
             background-color:#f8f8f8 !important;
             color: #000000 !important;
-            box-shadow: 0 0 15px rgba(0,0,0,0.2);
-            border-radius: 5px;
+            box-shadow: 0 0 4px rgba(0,0,0,0.2);
+            border-radius: 0px;
             max-width: 100%;
         }
         .leaflet-touch .leaflet-control-layers,
