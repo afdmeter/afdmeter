@@ -13,6 +13,17 @@
         <link rel="stylesheet" href="css/qgis2web.css">
         <link rel="stylesheet" href="css/fontawesome-all.min.css">
         <link rel="stylesheet" href="css/leaflet-control-geocoder.Geocoder.css">
+        <!-- icons -->
+        <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+        <link rel="manifest" href="icons/site.webmanifest">
+        <link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#009ee0">
+        <link rel="shortcut icon" href="icons/favicon.ico">
+        <meta name="msapplication-TileColor" content="#009ee0">
+        <meta name="msapplication-config" content="icons/browserconfig.xml">
+        <meta name="theme-color" content="#009ee0">
+        <!-- end-icons -->
         <style>
         html, body, #map {
             width: 100%;
@@ -57,7 +68,8 @@
             highlightLayer.openPopup();
         }
         var map = L.map('map', {
-            zoomControl:true, maxZoom:28, minZoom:1
+            maxZoom:10, minZoom:6, 
+            zoomControl: false //deactivated here and created later on, so it appears under the search.
         })
         var hash = new L.Hash(map);
         map.attributionControl.setPrefix(false);
@@ -85,7 +97,7 @@
             popup.update();
           }
         }, true);
-        L.control.locate({locateOptions: {maxZoom: 19}}).addTo(map);
+
         var bounds_group = new L.featureGroup([]);
         function setBounds() {
             if (bounds_group.getLayers().length) {
@@ -301,11 +313,17 @@
             };
             abstract.addTo(map);        
         var osmGeocoder = new L.Control.Geocoder({
-            collapsed: true,
+            collapsed: false, //hier you can make it start and stay open
             position: 'topleft',
             text: 'Search',
+            placeholder: 'In AfDmeter suchen...',
+            errorMessage: 'Nichts gefunden.',
             title: 'Testing'
         }).addTo(map);
+        L.control.zoom({ //moved after geocoder for the desired order
+            position: 'topleft',
+        }).addTo(map);
+        L.control.locate({locateOptions: {maxZoom: 10}}).addTo(map); //moved after zoom and geocoder for the desired order
         document.getElementsByClassName('leaflet-control-geocoder-icon')[0]
         .className += ' fa fa-search';
         document.getElementsByClassName('leaflet-control-geocoder-icon')[0]

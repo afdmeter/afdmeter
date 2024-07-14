@@ -11,7 +11,7 @@ module.exports = {
 			expand: 'touch', // options: touch, click, anythingelse
 			position: 'topright',
 			placeholder: 'In AfDmeter suchen...',
-			errorMessage: 'Nothing found.',
+			errorMessage: 'Nichts gefunden.',
 			suggestMinLength: 3,
 			suggestTimeout: 250,
 			defaultMarkGeocode: true
