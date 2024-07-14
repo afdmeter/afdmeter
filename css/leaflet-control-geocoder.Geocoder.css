@@ -29,6 +29,7 @@
 .leaflet-control-geocoder-form {
 	display: none;
 	vertical-align: middle;
+	width: 180px !important;
 }
 .leaflet-control-geocoder-expanded .leaflet-control-geocoder-form {
 	display: inline-block;

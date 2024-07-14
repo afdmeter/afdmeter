@@ -6,7 +6,7 @@
         <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
         <meta name="mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="description" content="Erfahren Sie mehr über die Wahlergebnisse der AfD in Ihrer Region. Entdecken Sie die Ergebnisse der AfD in der interaktiven Karte vom AfDMeter!">
+        <meta name="description" content="Erfahren Sie über die Wahlergebnisse der AfD in Ihrer Region. Entdecken Sie die Ergebnisse der AfD in der interaktiven Karte vom AfDMeter!">
         <link rel="stylesheet" href="css/leaflet.css">
         <link rel="stylesheet" href="css/L.Control.Layers.Tree.css">
         <link rel="stylesheet" href="css/L.Control.Locate.min.css">
@@ -68,7 +68,7 @@
             highlightLayer.openPopup();
         }
         var map = L.map('map', {
-            maxZoom:10, minZoom:6, 
+            maxZoom:10, minZoom:5, 
             zoomControl: false //deactivated here and created later on, so it appears under the search.
         })
         var hash = new L.Hash(map);
@@ -294,7 +294,7 @@
                 return this._div;
             };
             title.update = function () {
-                this._div.innerHTML = '<h2>AfDmeter</h2><p>Die Wahlergebnisse der AfD</p>';
+                this._div.innerHTML = '<h1>AfDmeter</h1><p>Die Wahlergebnisse der AfD</p>';
             };
             title.addTo(map);
             var abstract = new L.Control({'position':'bottomleft'});

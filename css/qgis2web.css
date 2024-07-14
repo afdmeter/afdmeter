@@ -15,9 +15,10 @@
             border-radius: 5px;
             text-align: right;
         }
-        .info h2 {
+        .info h1 {
             margin: 0px 0px 0px;
             color: #33322F;
+            font-size: 21px;
         }
         .leaflet-container {
             background: #fff;
