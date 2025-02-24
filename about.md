@@ -5,13 +5,13 @@
 
 ## Was ist das AfDMeter?
 
-Das AfDMeter ist eine interaktive Webseite, die die Wahlergebnisse der Alternative für Deutschland (AfD) bei der Europawahl 2024 in Deutschland visualisiert. Mit einer detaillierten Karte können Sie die Ergebnisse der AfD in verschiedenen Gebieten Deutschlands einsehen. Durch Klicken auf ein spezifisches Gebiet werden die Wahlergebnisse der aktuellen Europawahl sowie der vorherigen Wahl angezeigt.
+Das AfDMeter ist eine interaktive Webseite, die die Wahlergebnisse der Alternative für Deutschland (AfD) bei der Bundestagswahl 2025 in Deutschland visualisiert. Mit einer detaillierten Karte können Sie die Ergebnisse der AfD in verschiedenen Gebieten Deutschlands einsehen. Durch Klicken auf ein spezifisches Gebiet werden die Wahlergebnisse der aktuellen Bundestagswahl sowie der vorherigen Wahl angezeigt.
 
 ## Wie nutzt man die Webseite?
 
 ### Karte Erkunden
 - **Karte Anzeigen**: Beim Aufrufen des [AfDMeter](index.html) sehen Sie eine Karte von Deutschland mit farblich markierten Gebieten, die die Wahlergebnisse der AfD darstellen.
-- **Gebiet Klicken**: Klicken Sie auf ein spezifisches Gebiet, um die detaillierten Wahlergebnisse dieses Gebiets anzuzeigen, sowohl für die Europawahl 2024 als auch für die vorherige Europawahl.
+- **Gebiet Klicken**: Klicken Sie auf ein spezifisches Gebiet, um die detaillierten Wahlergebnisse dieses Gebiets anzuzeigen, sowohl für die Bundestagswahl 2025 als auch für die vorherige Bundestagswahl.
   
 ### Suche
 - **Adresse oder Gebiet Suchen**: Klicken Sie auf den Knopf mit der Lupe, um nach einer spezifischen Adresse oder einem Gebiet zu suchen. Geben Sie einfach den Namen des Ortes oder die Adresse ein, und die Karte wird auf diesen Bereich zoomen, klicken Sie auf das Gebiet um die entsprechenden Wahlergebnisse zu sehen.
@@ -19,7 +19,7 @@ Das AfDMeter ist eine interaktive Webseite, die die Wahlergebnisse der Alternati
 Probieren Sie es gleich aus: [AfDMeter](index.html) !
 
 ## Woher kommen die Daten?
-Die Daten auf das AfDMeter stammen von der [Bundeswahlleiterin](https://bundeswahlleiterin.de). Weitere Details zu den Wahlergebnissen, einschließlich der Ergebnisse anderer Parteien, finden Sie hier: [Europawahlen 2024 Ergebnisse](https://bundeswahlleiterin.de/europawahlen/2024/ergebnisse.html).
+Die Daten auf das AfDMeter stammen von der [Bundeswahlleiterin](https://bundeswahlleiterin.de). Weitere Details zu den Wahlergebnissen, einschließlich der Ergebnisse anderer Parteien, finden Sie hier: [Bundestagswahl 2025 Ergebnisse](https://bundeswahlleiterin.de/bundestagswahlen/2025/ergebnisse.html).
 
 
 ## Warum wurde das AfDMeter erstellt?
