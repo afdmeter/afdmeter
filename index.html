@@ -72,6 +72,27 @@
             padding: 0;
             margin: 0;
         }
+
+        .modern-button {
+            background: #fff;
+            border: 3px solid rgba(0, 0, 0, .05);
+            border-radius: 5px;
+            box-shadow: none;
+            padding: 6px 6px 6px 6px;
+            margin: 0;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size: 14px;
+            display: inline-block;
+            transition: all 0.2s ease;
+        }
+        .modern-button:hover {
+            background: #f4f4f4;
+        }
+        .modern-button:active {
+            background: #e6e6e6;
+        }
         </style>
         <title>Wahlergebnisse der AfD | AfDmeter</title>
     </head>
@@ -337,16 +358,19 @@
             var abstract = new L.Control({'position':'bottomleft'});
             abstract.onAdd = function (map) {
                 this._div = L.DomUtil.create('div',
-                'leaflet-control abstract');
+                'leaflet-control');
                 this._div.id = 'abstract'
+                this._div.style.background = 'none';
+                this._div.style.border = 'none';
+                this._div.style.boxShadow = 'none';
+                this._div.style.padding = '0';
+                this._div.style.marginBottom = '25px';
 
                     abstract.show();
                     return this._div;
                 };
                 abstract.show = function () {
-                    this._div.classList.remove("abstract");
-                    this._div.classList.add("abstractUncollapsed");
-                    this._div.innerHTML = '<a href="https://afdmeter.de/about.html" class="abstract-link">Hilfe</a>';
+                    this._div.innerHTML = '<a href="https://afdmeter.de/about.html" class="modern-button">Hilfe</a>';
             };
             abstract.addTo(map);        
         var osmGeocoder = new L.Control.Geocoder({
