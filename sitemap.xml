@@ -1,15 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<!--  created with sitemap generator https://octopus.do  -->
+<!--  Enhanced sitemap for AfDmeter - Election Results Interactive Map  -->
 
     <url>
-        <loc>https://afdmeter.de</loc>
-        <changefreq>always</changefreq>
+        <loc>https://afdmeter.de/</loc>
+        <lastmod>2025-01-01</lastmod>
+        <changefreq>yearly</changefreq>
         <priority>1.0</priority>
     </url>
+    
+    <url>
+        <loc>https://afdmeter.de/about.html</loc>
+        <lastmod>2025-01-01</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://afdmeter.de/impressum.html</loc>
+        <lastmod>2025-01-01</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+    </url>
+    
     <url>
         <loc>https://afdmeter.de/about</loc>
+        <lastmod>2025-01-01</lastmod>
         <changefreq>yearly</changefreq>
-        <priority>0.5</priority>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://afdmeter.de/impressum</loc>
+        <lastmod>2025-01-01</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
     </url>
 </urlset>
