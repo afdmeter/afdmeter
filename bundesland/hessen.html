@@ -6,41 +6,41 @@
         <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
         <meta name="mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="description" content="AfD Wahlergebnisse Bayern 2025: Interaktive Karte der Bundestagswahl-Ergebnisse in allen bayerischen Wahlkreisen. Detaillierte Analyse der Zweitstimmenanteile der AfD in Bayern.">
-        <meta name="keywords" content="AfD Bayern, Wahlergebnisse Bayern 2025, Bundestagswahl Bayern, AfD Wahlergebnisse, Bayern Wahlkreise, AfD Zweitstimmen Bayern">
+        <meta name="description" content="AfD Wahlergebnisse Hessen 2025: Interaktive Karte der Bundestagswahl-Ergebnisse in allen hessischen Wahlkreisen. Detaillierte Analyse der Zweitstimmenanteile der AfD in Hessen.">
+        <meta name="keywords" content="AfD Hessen, Wahlergebnisse Hessen 2025, Bundestagswahl Hessen, AfD Wahlergebnisse, Hessen Wahlkreise, AfD Zweitstimmen Hessen">
         <meta name="robots" content="index, follow">
         <meta name="author" content="AfDmeter">
         <meta name="language" content="de">
-        <meta name="geo.region" content="DE-BY">
-        <meta name="geo.placename" content="Bayern">
+        <meta name="geo.region" content="DE-HE">
+        <meta name="geo.placename" content="Hessen">
         <meta name="distribution" content="global">
         <meta name="rating" content="general">
         <meta name="revisit-after" content="7 days">
-        <link rel="canonical" href="https://afdmeter.de/bundesland/bayern">
-        <meta property="og:title" content="AfD Wahlergebnisse Bayern 2025 - Interaktive Karte">
-        <meta property="og:description" content="Erkunden Sie die AfD Wahlergebnisse zur Bundestagswahl 2025 in Bayern. Detaillierte Analyse aller bayerischen Wahlkreise.">
+        <link rel="canonical" href="https://afdmeter.de/bundesland/hessen">
+        <meta property="og:title" content="AfD Wahlergebnisse Hessen 2025 - Interaktive Karte">
+        <meta property="og:description" content="Erkunden Sie die AfD Wahlergebnisse zur Bundestagswahl 2025 in Hessen. Detaillierte Analyse aller hessischen Wahlkreise.">
         <meta property="og:type" content="website">
-        <meta property="og:url" content="https://afdmeter.de/bundesland/bayern">
+        <meta property="og:url" content="https://afdmeter.de/bundesland/hessen">
         <meta property="og:image" content="https://afdmeter.de/images/og-image.png">
         <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="AfD Wahlergebnisse Bayern 2025 - Interaktive Karte">
-        <meta name="twitter:description" content="Erkunden Sie die AfD Wahlergebnisse zur Bundestagswahl 2025 in Bayern. Detaillierte Analyse aller bayerischen Wahlkreise.">
+        <meta name="twitter:title" content="AfD Wahlergebnisse Hessen 2025 - Interaktive Karte">
+        <meta name="twitter:description" content="Erkunden Sie die AfD Wahlergebnisse zur Bundestagswahl 2025 in Hessen. Detaillierte Analyse aller hessischen Wahlkreise.">
         <meta name="twitter:image" content="https://afdmeter.de/images/og-image.png">
         <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "AfD Wahlergebnisse Bayern 2025",
-  "description": "Interaktive Karte der AfD Wahlergebnisse zur Bundestagswahl 2025 in Bayern",
-  "url": "https://afdmeter.de/bundesland/bayern",
+  "name": "AfD Wahlergebnisse Hessen 2025",
+  "description": "Interaktive Karte der AfD Wahlergebnisse zur Bundestagswahl 2025 in Hessen",
+  "url": "https://afdmeter.de/bundesland/hessen",
   "mainEntity": {
     "@type": "WebApplication",
-    "name": "AfDmeter Bayern",
-    "description": "Interaktive Karte der AfD Wahlergebnisse in Bayern",
+    "name": "AfDmeter Hessen",
+    "description": "Interaktive Karte der AfD Wahlergebnisse in Hessen",
     "applicationCategory": "GovernmentApplication",
     "operatingSystem": "Web Browser",
     "browserRequirements": "JavaScript enabled",
-    "featureList": ["Interactive Map", "Election Results", "Bavaria Data Visualization"],
+    "featureList": ["Interactive Map", "Election Results", "Hesse Data Visualization"],
     "screenshot": "https://afdmeter.de/images/og-image.png"
   },
   "datePublished": "2025-01-01",
@@ -61,8 +61,8 @@
       {
         "@type": "ListItem",
         "position": 2,
-        "name": "Bayern",
-        "item": "https://afdmeter.de/bundesland/bayern"
+        "name": "Hessen",
+        "item": "https://afdmeter.de/bundesland/hessen"
       }
     ]
   }
@@ -116,7 +116,7 @@
             background: #e6e6e6;
         }
         </style>
-        <title>AfD Wahlergebnisse Bayern 2025 | AfDmeter</title>
+        <title>AfD Wahlergebnisse Hessen 2025 | AfDmeter</title>
     </head>
     <body>
         <div id="map">
@@ -151,11 +151,11 @@
             }
         }
         
-        // Filter data for Bavaria only (LAND_NR = "09")
-        var bavariaData = {
+        // Filter data for Hessen only (LAND_NR = "06")
+        var hessenData = {
             type: "FeatureCollection",
             features: json_ZweitstimmenanteilAfDbrnbspnbspnbspnbspBundestagswahl2025_0.features.filter(function(feature) {
-                return feature.properties.LAND_NR === "09";
+                return feature.properties.LAND_NR === "06";
             })
         };
         
@@ -363,10 +363,10 @@
         map.createPane('pane_ZweitstimmenanteilAfDbrnbspnbspnbspnbspBundestagswahl2025_0');
         map.getPane('pane_ZweitstimmenanteilAfDbrnbspnbspnbspnbspBundestagswahl2025_0').style.zIndex = 400;
         map.getPane('pane_ZweitstimmenanteilAfDbrnbspnbspnbspnbspBundestagswahl2025_0').style['mix-blend-mode'] = 'normal';
-        var layer_ZweitstimmenanteilAfDbrnbspnbspnbspnbspBundestagswahl2025_0 = new L.geoJson(bavariaData, {
+        var layer_ZweitstimmenanteilAfDbrnbspnbspnbspnbspBundestagswahl2025_0 = new L.geoJson(hessenData, {
             attribution: '',
             interactive: true,
-            dataVar: 'bavariaData',
+            dataVar: 'hessenData',
             layerName: 'layer_ZweitstimmenanteilAfDbrnbspnbspnbspnbspBundestagswahl2025_0',
             pane: 'pane_ZweitstimmenanteilAfDbrnbspnbspnbspnbspBundestagswahl2025_0',
             onEachFeature: pop_ZweitstimmenanteilAfDbrnbspnbspnbspnbspBundestagswahl2025_0,
@@ -381,7 +381,7 @@
                 return this._div;
             };
             title.update = function () {
-                this._div.innerHTML = '<h1>AfDmeter Bayern</h1><p>Die AfD Wahlergebnisse in Bayern</p>';
+                this._div.innerHTML = '<h1>AfDmeter Hessen</h1><p>Die AfD Wahlergebnisse in Hessen</p>';
             };
             title.addTo(map);
             var abstract = new L.Control({'position':'bottomleft'});
@@ -417,7 +417,7 @@
         document.getElementsByClassName('leaflet-control-geocoder-icon')[0]
         .className += ' fa fa-search';
         document.getElementsByClassName('leaflet-control-geocoder-icon')[0]
-        .title += 'Suchen Sie nach bayerischen Gebieten oder Adressen';
+        .title += 'Suchen Sie nach hessischen Gebieten oder Adressen';
         var baseMaps = {};
         var overlaysTree = [
             {label: 'Zweitstimmenanteil AfD<br>&nbsp&nbsp&nbsp&nbsp  Bundestagswahl 2025<br /><table><tr><td style="text-align: center;"><img src="../legend/ZweitstimmenanteilAfDbrnbspnbspnbspnbspBundestagswahl2025_0_6110.png" alt="Blaues Quadrat, Farbabstufung 1 von 8" /></td><td>6 - 11 %</td></tr><tr><td style="text-align: center;"> <img src="../legend/ZweitstimmenanteilAfDbrnbspnbspnbspnbspBundestagswahl2025_0_11161.png" alt="Blaues Quadrat, Farbabstufung 2 von 8" /></td><td>11 - 16 %</td></tr><tr><td style="text-align: center;"><img src="../legend/ZweitstimmenanteilAfDbrnbspnbspnbspnbspBundestagswahl2025_0_16212.png" alt="Blaues Quadrat, Farbabstufung 3 von 8" /></td><td>16 - 21 %</td></tr><tr><td style="text-align: center;"><img src="../legend/ZweitstimmenanteilAfDbrnbspnbspnbspnbspBundestagswahl2025_0_21263.png" alt="Blaues Quadrat, Farbabstufung 4 von 8" /></td><td>21 - 26 %</td></tr><tr><td style="text-align: center;"><img src="../legend/ZweitstimmenanteilAfDbrnbspnbspnbspnbspBundestagswahl2025_0_26324.png" alt="Blaues Quadrat, Farbabstufung 5 von 8" /></td><td>26 - 32 %</td></tr><tr><td style="text-align: center;"><img src="../legend/ZweitstimmenanteilAfDbrnbspnbspnbspnbspBundestagswahl2025_0_32375.png" alt="Blaues Quadrat, Farbabstufung 6 von 8" /></td><td>32 - 37 %</td></tr><tr><td style="text-align: center;"><img src="../legend/ZweitstimmenanteilAfDbrnbspnbspnbspnbspBundestagswahl2025_0_37426.png" alt="Blaues Quadrat, Farbabstufung 7 von 8" /></td><td>37 - 42 %</td></tr><tr><td style="text-align: center;"><img src="../legend/ZweitstimmenanteilAfDbrnbspnbspnbspnbspBundestagswahl2025_0_42477.png" alt="Blaues Quadrat, Farbabstufung 8 von 8" /></td><td>42 - 47 %</td></tr></table>', layer: layer_ZweitstimmenanteilAfDbrnbspnbspnbspnbspBundestagswahl2025_0},]
