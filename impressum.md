@@ -21,6 +21,9 @@ Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Rich
 ## Haftung für Links
 Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.
 
+## Datenschutzerklärung
+Zur statistischen Auswertung der Besucherzugriffe nutzen wir das Open-Source-Tool [GoatCounter](https://www.goatcounter.com). Dabei werden keine Cookies gesetzt und keine personenbezogenen Daten gespeichert. Das Tool lässt keine personenbezogenen Auswertungen zu und dient lediglich dazu, die Nutzung der Website besser zu verstehen. Weitere Informationen finden Sie unter: [GoatCounter GDPR](https://www.goatcounter.com/help/gdpr) und [GoatCounter Privacy](https://www.goatcounter.com/help/privacy).
+
 &nbsp;
 
 ---
